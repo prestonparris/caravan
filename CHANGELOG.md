@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/prestonparris/caravan/compare/caravan-v1.0.3...caravan-v2.0.0) (2025-02-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* adds typescript and node v20 support ([#350](https://github.com/prestonparris/caravan/issues/350))
+
+### Features
+
+* add support for wallet uuid in configs ([#297](https://github.com/prestonparris/caravan/issues/297)) ([6675db4](https://github.com/prestonparris/caravan/commit/6675db41bb14331c2e6de7d377bb8003ee824c28))
+* adds typescript and node v20 support ([#350](https://github.com/prestonparris/caravan/issues/350)) ([f5c3e90](https://github.com/prestonparris/caravan/commit/f5c3e90d839f8ac2cc9378b5ddbadc6cb0f41ddc))
+* **hermit:** hermit PSBT signing for pre-product key recovery ([#308](https://github.com/prestonparris/caravan/issues/308)) ([04ca0ce](https://github.com/prestonparris/caravan/commit/04ca0ce3ffa2589a00104ecd18cf11768212f470))
+* unblock fee rate limit ([ba5de57](https://github.com/prestonparris/caravan/commit/ba5de57894bf2db87875235d20fbc18091ef78af))
+
+
+### Bug Fixes
+
+* addressType conflict check not applicable for text xpubs ([185fc01](https://github.com/prestonparris/caravan/commit/185fc01bcd6c02301fb787229ffcc8f0c4c6cd45))
+* bad import ([#299](https://github.com/prestonparris/caravan/issues/299)) ([e646ebb](https://github.com/prestonparris/caravan/commit/e646ebb0b26f2bf5318a19829c1bbf9cb7c8327d))
+* **build:** bring back hash routing ([ed83bf4](https://github.com/prestonparris/caravan/commit/ed83bf4b6765294180ea96b11898cb1a42adfc42))
+* **build:** pass git sha to build properly ([a93d65b](https://github.com/prestonparris/caravan/commit/a93d65bcab59855ed1049e776374931c5c0f5c1c))
+* **dependencies:** bump uc-wallets for trezor fix ([139e8fd](https://github.com/prestonparris/caravan/commit/139e8fd1c45ec95570acb66e0258a253f3904b0a))
+* **deps:** bump @babel/traverse from 7.21.3 to 7.23.2 ([#344](https://github.com/prestonparris/caravan/issues/344)) ([5f231e0](https://github.com/prestonparris/caravan/commit/5f231e03042006ecc1f72043f42bb6c7266dbecd))
+* **deps:** upgrade uc-bitcoin dep for fixture fix ([67077c2](https://github.com/prestonparris/caravan/commit/67077c2136bdbb7c6dd3366ab5acdc5f3428e706))
+* incorrect fee error check conditional operator ([2b417c6](https://github.com/prestonparris/caravan/commit/2b417c623990f1de5ef41f7910f81c1fb17a056e))
+* max spend button ([0884745](https://github.com/prestonparris/caravan/commit/0884745b1252c762d5f1f15b071a2189fd0ae240))
+* more dependency cleanup ([593c48d](https://github.com/prestonparris/caravan/commit/593c48d30fc5d4e017cf34a7414bae4ec3938c9f))
+* psbt download in coldcard test suite ([cd88354](https://github.com/prestonparris/caravan/commit/cd883540084764feb378f44adbdbabf32cb84051))
+* **scriptexplorer:** change the error message for spending from new wallet ([1923dad](https://github.com/prestonparris/caravan/commit/1923dad0d5fdc61fe88d729d6e850cee8a22e0f1)), closes [#172](https://github.com/prestonparris/caravan/issues/172)
+* **scriptexplorer:** show error message trown in fethUTXOs ([158fb61](https://github.com/prestonparris/caravan/commit/158fb6154856909f4de77a49eaeac24cbd4a42d2)), closes [#172](https://github.com/prestonparris/caravan/issues/172)
+* **scriptexplorer:** when no error is trown check for 0 balance ([cb96364](https://github.com/prestonparris/caravan/commit/cb96364922f61e922be30b67fc39eda2fd233dce))
+* **sign:** pass wallet uuid for signing ([a748d97](https://github.com/prestonparris/caravan/commit/a748d97d3bfe796487270ca7a41144b629df17a7))
+* **test-suite:** key origins sorted by base58 xpub ([444e083](https://github.com/prestonparris/caravan/commit/444e0838ef723db00974b2f57f2a205b62ac3668))
+* typography tweak to deprecation banner ([b00a6bf](https://github.com/prestonparris/caravan/commit/b00a6bf8ca8d76073ab1ac9370ab1bdc6efa423c))
+* upgrade uc-bitcoin and pin broken ledger deps ([64b9613](https://github.com/prestonparris/caravan/commit/64b961335a4d5c0bc565163dc6e87f1ab750f6e7))
+* utility accepts string instead of BN ([607d9b8](https://github.com/prestonparris/caravan/commit/607d9b8c6461d4762f0f5873c5a7045eba9a9e9f))
+* **wallet:** add delay to address and utxo calls ([d9774c1](https://github.com/prestonparris/caravan/commit/d9774c1c7e28021a48efa30666c6ceb9e75cd1da)), closes [#317](https://github.com/prestonparris/caravan/issues/317)
+
 ## [1.0.3](https://github.com/unchained-capital/caravan/compare/caravan-v1.0.2...caravan-v1.0.3) (2024-02-29)
 
 
